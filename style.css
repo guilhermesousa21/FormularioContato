@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+        background: #101026;
+        overflow: hidden;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    border-radius: 15px;
+
+}
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%; /*100% de 500px da section*/
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+form input:focus{
+    border-radius: 1px;
+}
+form textarea{
+    padding: 10px;
+outline: none;
+font-size: 15px;
+margin-bottom: 30px;
+border-radius: 10px;
+transition: all 0.5s
+}
+form textarea:focus{ /*focus é usado quando clica em algo ,hover quando passa o mouse por cima*/
+    border-radius: 5px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+form button:hover{
+background: rgba(238, 238, 238, 0.5);
+color: #101026;
+}
+
+
+
+/*obrigado*/
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+    flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: aliceblue;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+    border-radius: 14px;
+}
